@@ -1785,9 +1785,8 @@ form {
   transform: translateX(-50px);
   animation: fadeLeft 1s ease forwards;
 }
-@media (max-width: 480px) {
-
-  .holder {
+@media (max-width: 480px){
+.holder {
     width: 95%;
     margin: 0 auto;
     border-radius: 20px;
@@ -1800,9 +1799,8 @@ form {
 
   .input-bx input
    {
-       width: 100%;
     font-size: 14px;
-
+    padding: 10px 35px 9px 10px;
   }
   
    .input-bx input[type="checkbox"] {
@@ -1811,7 +1809,7 @@ form {
   .submit {
     height: 45px;
     font-size: 15px;
-    align-item: center;
+    align-items: center;
     justify-content: center;
   }
 }
@@ -1820,7 +1818,6 @@ form {
   transform: translateX(-50px);
   animation: fadeLeft 1s ease forwards;
 }
-
 @keyframes fadeinLeft {
   to {
     opacity: 1;
@@ -2143,5 +2140,6 @@ form {
     width: 90%;
   }
 }
+
 
 
