@@ -1785,6 +1785,41 @@ form {
   transform: translateX(-50px);
   animation: fadeLeft 1s ease forwards;
 }
+@media (max-width: 480px) {
+
+  .holder {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  .holder h2 {
+    font-size: 22px;
+  }
+
+  .input-bx input
+   {
+       width: 100%;
+    font-size: 14px;
+
+  }
+  
+   .input-bx input[type="checkbox"] {
+    margin-right: 8px;
+   }
+  .submit {
+    height: 45px;
+    font-size: 15px;
+    align-item: center;
+    justify-content: center;
+  }
+}
+.fadein-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: fadeLeft 1s ease forwards;
+}
 
 @keyframes fadeinLeft {
   to {
@@ -2108,4 +2143,5 @@ form {
     width: 90%;
   }
 }
+
 
